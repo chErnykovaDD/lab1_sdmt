@@ -69,7 +69,3 @@ Paragraph1. Lorem Ipsum Dolor Sit Amet.
 This is still paragraph 1.
 
 And after a blank line this is paragraph 2.
-
-## Revert commit
-
-[Посилання на Revert commit](https://github.com/chErnykovaDD/lab1_sdmt/commit/2051241a480d1b8a9a3d3d37add0a51e56141ea2)
