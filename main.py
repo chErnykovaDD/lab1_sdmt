@@ -48,7 +48,34 @@ def handle_markdown_elements(line):
     for pattern, replacement in markdown_elements:
         line = re.sub(pattern, replacement, line)
 
+    check_unclosed_markdown(line)
+    check_invalid_combinations(line)
+
     return line
+def check_unclosed_markdown(line):
+    unclosed_markdown = [
+        (r'(?<!\w)_\S', "italic"),
+        (r'\S_(?!\w)', "italic"),
+        (r'(?<!\w)\*\*\S', "bold"),
+        (r'\S\*\*(?!\w)', "bold"),
+        (r'(?<!\w)`\S', "monospaced"),
+        (r'\S`(?!\w)', "monospaced")
+    ]
+
+    for pattern, element in unclosed_markdown:
+        if re.search(pattern, line):
+            raise ValueError(f"Invalid markdown: unclosed {element}")
+
+def check_invalid_combinations(line):
+    invalid_combinations = [
+        (r'\*\*\s.*\s\*\*', "spaces are not allowed between bold markers and text"),
+        (r'(^|\s)_\s.*\s_(?=\s|$)', "spaces are not allowed between italic markers and text"),
+        (r'`\s.*\s`', "spaces are not allowed between monospaced markers and text")
+    ]
+
+    for pattern, message in invalid_combinations:
+        if re.search(pattern, line):
+            raise ValueError(f"Invalid markdown: {message}")
 def read_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as file:
         return file.read()
