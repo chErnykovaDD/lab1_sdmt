@@ -103,5 +103,7 @@ def main():
     else:
         print(html_output)
 
+    print("Conversion completed successfully!")
+
 if __name__ == "__main__":
     main()
