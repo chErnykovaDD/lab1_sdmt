@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5df7779-ac65-4c35-b077-9108a009f112" name="Changes" comment="Added notification of successful program completion" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chErnykovaDD"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/chErnykovaDD/lab1_sdmt.git",
+    "accountId": "0c4ce4b5-2e7d-4bd8-bc91-6ef920d38a6c"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2gv3K7H7UF7TruyteHELF4CIqBx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5df7779-ac65-4c35-b077-9108a009f112" name="Changes" comment="" />
+      <created>1716564156523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716564156523</updated>
+      <workItem from="1716564164227" duration="3749000" />
+    </task>
+    <task id="LOCAL-00001" summary="Implementated of basic Markdown parsing and HTML conversion functionality. This includes functions for reading files, parsing Markdown, and handling specific Markdown elements like bold, italic, and headers.">
+      <option name="closed" value="true" />
+      <created>1716564676535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716564676535</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Markdown validation and error handling">
+      <option name="closed" value="true" />
+      <created>1716564968733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716564968733</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updatd README.md with instructions on how to set up and use">
+      <option name="closed" value="true" />
+      <created>1716566302161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716566302161</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added notification of successful program completion">
+      <option name="closed" value="true" />
+      <created>1716567242059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716567242059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementated of basic Markdown parsing and HTML conversion functionality. This includes functions for reading files, parsing Markdown, and handling specific Markdown elements like bold, italic, and headers." />
+    <MESSAGE value="Added Markdown validation and error handling" />
+    <MESSAGE value="Updatd README.md with instructions on how to set up and use" />
+    <MESSAGE value="Added notification of successful program completion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added notification of successful program completion" />
+  </component>
+</project>
